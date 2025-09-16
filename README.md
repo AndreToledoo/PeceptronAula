@@ -6,7 +6,7 @@ Criadas funções sigmoid e step (degrau).
 
 Permite alternar facilmente entre ativação contínua e binária.
 
-## udança para função degrau:
+## Mudança para função degrau:
 
 Saídas binárias (0 ou 1) ao invés de valores entre 0 e 1.
 
