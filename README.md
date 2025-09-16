@@ -22,7 +22,7 @@ Antes: learning_rate=0.1, epochs=100
 
 Depois: learning_rate=0.01, epochs=1000
 
-Treinamento mais estável e preciso.
+Treinamento mais lento, porém mais estável e preciso.
 
 ## Alteração do padrão de saída:
 
