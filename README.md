@@ -15,7 +15,7 @@ A determinação da potência baseou-se majoritariamente no nível de sujeira, c
 O desenvolvimento do perceptron_aspirador proporcionou a aplicação prática de conceitos importantes da Inteligência Artificial, como normalização, atribuição de pesos e tomada de decisão automatizada. Apesar de não se tratar de um perceptron treinável, o modelo representa uma abordagem determinística eficaz para problemas de adaptação de comportamento em dispositivos inteligentes. A atividade permitiu compreender de maneira mais concreta como regras matemáticas e lógicas podem ser utilizadas para aproximar o funcionamento de sistemas reais, contribuindo para a formação de uma base sólida em técnicas de IA e programação aplicada.
 
 
-##Alunos: 
+## Alunos: 
 André Luiz Gusmão Carneiro de Toledo - 1232021455
 Marcelo Gutemberg Peres Campos - 125111398712
 Guilherme Lustosa do Carmo - 12316574
