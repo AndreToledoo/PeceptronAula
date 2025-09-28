@@ -1,33 +1,15 @@
-# PeceptronAula
+#Introdução
 
-## Função de ativação extraída:
+O presente trabalho teve como finalidade o desenvolvimento de uma função computacional denominada perceptron_aspirador, inspirada nos princípios fundamentais do perceptron — um dos modelos pioneiros de redes neurais artificiais. O objetivo consistiu em criar um mecanismo de decisão automatizado capaz de determinar a potência de sucção e a velocidade de deslocamento ideais de um aspirador inteligente, com base em três variáveis de entrada: tipo de piso, quantidade de sujeira e distância até a sujeira. A atividade visa integrar conceitos teóricos de Inteligência Artificial a uma aplicação prática simplificada.
 
-Criadas funções sigmoid e step (degrau).
+#Desenvolvimento
 
-Permite alternar facilmente entre ativação contínua e binária.
+Para a construção do modelo, o primeiro passo consistiu na definição de valores numéricos associados aos tipos de piso, de modo a representar suas diferentes características físicas e permitir o processamento matemático. Pisos cerâmicos receberam valores mais elevados por possibilitarem maior velocidade, enquanto carpetes tiveram valores reduzidos, refletindo a necessidade de maior cautela na limpeza.
 
-## Mudança para função degrau:
+Na sequência, foi aplicada a normalização das variáveis de entrada, convertendo a quantidade de sujeira e a distância até a sujeira para uma escala entre 0 e 1. Essa etapa foi essencial para evitar discrepâncias entre unidades de medida distintas e garantir proporcionalidade nas decisões do modelo.
 
-Saídas binárias (0 ou 1) ao invés de valores entre 0 e 1.
+A determinação da potência baseou-se majoritariamente no nível de sujeira, com uma escala de saída entre 1 e 3. Já a velocidade foi calculada por meio de uma combinação ponderada entre o tipo de piso (peso de 60%) e a distância (peso de 40%), resultando em valores entre 1 e 5. Foram realizados testes com diferentes combinações de entradas para avaliar o comportamento da função. Os resultados mostraram coerência com a lógica proposta: por exemplo, pisos cerâmicos com sujeira alta e distância média resultaram em maior potência e velocidade, enquanto pisos com sujeira leve e distância curta geraram configurações mais econômicas.
 
-Melhor para problemas de lógica booleana (AND, OR).
+#Conclusão
 
-## Adição de terceira entrada:
-
-Permite treinar portas lógicas de três variáveis (ex.: AND de 3 entradas).
-
-## Ajuste de learning rate e épocas:
-
-Antes: learning_rate=0.1, epochs=100
-
-Depois: learning_rate=0.01, epochs=1000
-
-Treinamento mais lento, porém mais estável e preciso.
-
-## Alteração do padrão de saída:
-
-Antes: OR (2 entradas)
-
-Depois: AND (3 entradas)
-
-Testa a capacidade do perceptron de aprender funções lógicas diferentes.
+O desenvolvimento do perceptron_aspirador proporcionou a aplicação prática de conceitos importantes da Inteligência Artificial, como normalização, atribuição de pesos e tomada de decisão automatizada. Apesar de não se tratar de um perceptron treinável, o modelo representa uma abordagem determinística eficaz para problemas de adaptação de comportamento em dispositivos inteligentes. A atividade permitiu compreender de maneira mais concreta como regras matemáticas e lógicas podem ser utilizadas para aproximar o funcionamento de sistemas reais, contribuindo para a formação de uma base sólida em técnicas de IA e programação aplicada.
